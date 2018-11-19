@@ -78,4 +78,6 @@ namespace _01_CafeMenu
                 Console.WriteLine($" -{count}-            {menu.MealNumber}               {menu.MealName}            {menu.IngredientList}               ${menu.MealPrice}         {menu.MealDescription}");
                 count++;
             }
+        }
+    }
 }
