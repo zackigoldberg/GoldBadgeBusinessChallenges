@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CD6A8CFF-6E55-4B2A-91D1-9049451D1FE9}</ProjectGuid>
+    <ProjectGuid>{6D7AC10D-2119-486E-9DC6-A36BF0DC4701}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01_CafeMenu</RootNamespace>
-    <AssemblyName>01_CafeMenu</AssemblyName>
+    <RootNamespace>_05_MassEmailMania</RootNamespace>
+    <AssemblyName>05_MassEmailMania</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Menu.cs" />
-    <Compile Include="MenuRepository.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="CustomerRepository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ProgramUI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

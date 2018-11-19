@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _01_CafeMenu
+namespace _03_CompanyOutings
 {
     class Program
     {
         static void Main(string[] args)
         {
-            ProgramUI program = new ProgramUI();
-            program.Run();
+            ProgramUI programUI = new ProgramUI();
+            programUI.Run();
         }
     }
 }

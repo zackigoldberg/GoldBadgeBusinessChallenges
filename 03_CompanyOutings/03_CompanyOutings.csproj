@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CD6A8CFF-6E55-4B2A-91D1-9049451D1FE9}</ProjectGuid>
+    <ProjectGuid>{E7A65A8A-BAFD-42FD-82A8-38FF26FDDE04}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01_CafeMenu</RootNamespace>
-    <AssemblyName>01_CafeMenu</AssemblyName>
+    <RootNamespace>_03_CompanyOutings</RootNamespace>
+    <AssemblyName>03_CompanyOutings</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Menu.cs" />
-    <Compile Include="MenuRepository.cs" />
+    <Compile Include="AmusementPark.cs" />
+    <Compile Include="Bowling.cs" />
+    <Compile Include="Concert.cs" />
+    <Compile Include="Golf.cs" />
+    <Compile Include="Outing.cs" />
+    <Compile Include="OutingRepository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ProgramUI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

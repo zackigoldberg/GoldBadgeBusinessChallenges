@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CD6A8CFF-6E55-4B2A-91D1-9049451D1FE9}</ProjectGuid>
+    <ProjectGuid>{8CF569F4-FAEC-4FE7-99C9-0B4F3D6F4697}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01_CafeMenu</RootNamespace>
-    <AssemblyName>01_CafeMenu</AssemblyName>
+    <RootNamespace>_02_InsuranceClaimMenu</RootNamespace>
+    <AssemblyName>02_InsuranceClaimMenu</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Menu.cs" />
-    <Compile Include="MenuRepository.cs" />
+    <Compile Include="Claim.cs" />
+    <Compile Include="ClaimRepository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ProgramUI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

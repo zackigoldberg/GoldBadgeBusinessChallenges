@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _01_CafeMenu
+namespace _08_SmartCarInsurance
 {
     class Program
     {

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CD6A8CFF-6E55-4B2A-91D1-9049451D1FE9}</ProjectGuid>
+    <ProjectGuid>{3B3FEC05-DB56-4F2C-ABF9-6424B8C76C8D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01_CafeMenu</RootNamespace>
-    <AssemblyName>01_CafeMenu</AssemblyName>
+    <RootNamespace>_07_BarbecueTracking</RootNamespace>
+    <AssemblyName>07_BarbecueTracking</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Menu.cs" />
-    <Compile Include="MenuRepository.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Barbecue.cs" />
+    <Compile Include="BarbecueRepository.cs" />
+    <Compile Include="Booth.cs" />
+    <Compile Include="Burger.cs" />
+    <Compile Include="Dessert.cs" />
     <Compile Include="ProgramUI.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

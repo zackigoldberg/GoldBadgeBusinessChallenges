@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _01_CafeMenu
+namespace _02_InsuranceClaimMenu
 {
     class Program
     {
@@ -12,6 +12,7 @@ namespace _01_CafeMenu
         {
             ProgramUI program = new ProgramUI();
             program.Run();
+
         }
     }
 }
